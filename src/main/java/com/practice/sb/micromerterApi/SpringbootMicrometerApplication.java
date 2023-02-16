@@ -11,7 +11,7 @@ public class SpringbootMicrometerApplication {
 
 	@GetMapping("/message")
 	public String getMessage() {
-		return"Hello its working....";
+		return"Hello its working....welcome to micrometer api";
 	}
 	public static void main(String[] args) {
 		System.out.println("welcome main");
