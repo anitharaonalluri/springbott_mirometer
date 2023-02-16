@@ -14,6 +14,7 @@ public class SpringbootMicrometerApplication {
 		return"Hello its working....";
 	}
 	public static void main(String[] args) {
+		System.out.println("welcome main");
 		SpringApplication.run(SpringbootMicrometerApplication.class, args);
 	}
 
